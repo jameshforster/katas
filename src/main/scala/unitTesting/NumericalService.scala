@@ -19,7 +19,7 @@ object NumericalService {
     if (a >= 0 && b >= 0) {
       if (c == 0) "C has an empty value"
       else "C has a non-empty value"
-    } else "Both values are positive"
+    } else "Both values are not positive"
   }
 
   def complexDoubleAtomicCondition(a: Int, b: Int) = {
